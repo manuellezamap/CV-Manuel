@@ -945,18 +945,21 @@ nav a:hover,
 
 @media (max-width: 600px) {
     .chat-window {
+        top: 0;
         bottom: 0;
+        left: 0;
         right: 0;
         width: 100%;
-        height: 100dvh;
-        max-height: 100dvh;
-        max-width: 100%;
+        height: auto;
+        max-height: none;
+        max-width: none;
         border-radius: 0;
         border: none;
+        z-index: 9999;
     }
 
     .chat-header {
-        padding: 1.25rem 1.25rem 1rem;
+        padding: 1.5rem 1.25rem 1rem;
     }
 
     .close-chat {
